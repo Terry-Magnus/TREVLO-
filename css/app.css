@@ -1,0 +1,168 @@
+@import url(https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bold{
+    font-weight: 600;
+}
+.inc {
+    letter-spacing: 2px;
+}
+body {
+    font-family: 'Ubuntu',  Tahoma, sans-serif;
+}
+#header, #contact-header {
+    background: #000 url(../images/bg-contact.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 1vh 5vh 15vh 5vh;
+}
+ #services-header {
+    background: #000 url(../images/bg-services.jpg) 100% center no-repeat;
+    background-size: cover;
+    padding: 1vh 5vh 15vh 5vh;
+}
+#about-header {
+    background: #000 url(../images/bg-about.jpg) center 100% no-repeat;
+    background-size: cover;
+    padding: 1vh 5vh 15vh 5vh;
+}
+.navbar-brand {
+    color: #2BC5E3;
+    font-size: 25px;
+}
+.navbar-toggler-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-bars {
+    color: #2BC5E3;
+}
+#navContent a.nav-link  {
+    color: #fff;
+}
+.nav-active  {
+    background: #15232E;
+    border: none;
+    box-shadow: -3px 3px 5px #1F2424;
+    padding: 0 1rem;
+}
+#more {
+    background: #2BC5E3;
+    box-shadow: -3px 3px 5px #2BC5E3;
+}
+#hero {
+    padding: 20vh 2vh;
+    color: #fff;
+}
+#content, #faq {
+    margin: 20vh 5vw;
+}
+.accordion .card .headingOne, .accordion .card .headingTwo, .accordion .card .headingThree {
+    background: #fff;
+    padding: 1.5rem 1rem;
+    border-radius: 100px;
+}
+.accordion .collapse .card-body  {
+    background: #2BC5E3;
+    color: #fff;
+}
+#features {
+    margin: 20vh 20vh 0 20vh;
+}
+#features .row .col-12 h2 {
+    padding: 10vh 0 5vh 0;
+}
+.img-alt {
+    font-size: 30px;
+    font-weight: 600;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about {
+    padding: 10vh 10vw;
+}
+#why {
+    margin: 20vh 0 0 0;
+}
+#why h3 {
+    margin-bottom: 30px;
+}
+#contact-form {
+    margin-top: 20vh;
+}
+#contact-form .form-group input, #contact-form .form-group textarea {
+    border: none;
+    box-shadow: -5px 5px 10px gray;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+#contact-form form button {
+    color: navy;
+    float: right;
+    background: #fff;
+    box-shadow: -5px 5px 10px gray;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+#customers .container .row {
+    border: none;
+    box-shadow: -5px 5px 10px gray;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: gray;
+}
+#companies  {
+    margin: 10vh 20vw 0 20vw;
+}
+#companies h2 {
+    margin-bottom: 5vh;
+}
+#footer {
+    background: url(../images/bg-footer.png) top center no-repeat;
+    padding: 60vh 5vh 0 5vh;
+    color: #fff;
+}
+#footer #main-links, #footer #service-links {
+    list-style-type: square;
+}
+#footer #main-links li a {
+    text-decoration: none;
+    color: #fff;
+}
+#footer-top {
+    margin-bottom: 5vh;
+}
+.fa-phone-alt {
+    background: #2BC5E3;
+    border-radius: 50px;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+.fa-envelope {
+    background:#2BC5E3;
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+@media screen and (min-width: 768px) {
+    #why .card .card-img-top {
+        height: 100%;
+    }
+}
+@media screen and (max-width: 576px){
+    .navbar {
+        padding: 1rem 0;
+    }
+    #hero h1 {
+        font-size: 35px;
+    }
+    #features {
+        margin: 20vh 0 0 0;
+    }
+}
