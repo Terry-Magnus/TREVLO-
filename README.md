@@ -1,1 +1,5 @@
-# This is a clone of an IT solutions company
+# Trevlo clone
+
+This is a cloned version of an IT solutions company: Trevlo Technologies
+
+
